@@ -26,3 +26,8 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints a an arrow of a predefined size
+void print_arrow(){
+  print_triangle(5,7);
+  print_square(9,7);
+}
